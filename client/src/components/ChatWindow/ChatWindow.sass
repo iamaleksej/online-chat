@@ -1,0 +1,69 @@
+.chat-window
+   width: 600px
+   height: 500px
+   border: 1px solid #000
+   border-radius: 10px
+   display: flex
+   margin: auto
+   &__users
+      width: 30%
+      background: #c9c9c9
+      padding: 20px
+      border-top-left-radius: 10px
+      border-bottom-left-radius: 10px
+
+   &__messages-block
+      width: 70%
+      padding: 20px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+   &__messages
+      overflow: auto
+   &__users-list
+      list-style-type: none
+      padding: 0
+
+   &__users-list-item
+      background: #fff
+      padding: 10px
+      margin-top: 10%
+   &__message-text
+      padding: 10px
+      background: #2c219450
+      border-radius: 10px
+      margin: 5px 0px
+      color: #000
+      min-height: 38px
+      word-break: break-all
+   &__message-user
+      font-size: 10px
+      margin-top: 5px
+   &__title-room
+      font-weight: 600
+      font-size: 25px
+      margin-bottom: 20px
+   &__quantity-users
+      font-weight: 600
+.form
+   border-top: 1px solid #000
+   display: flex
+   flex-direction: column
+   &__btn
+      cursor: pointer
+      text-transform: uppercase
+      font-weight: 600
+   &__text-field
+      width: 100%
+      height: 100px
+      margin-top: 20px
+      outline: 0
+      padding: 5px
+   &__btn
+      margin-top: 20px
+      width: 150px
+      height: 40px
+      background: #2c2194
+      color: #fff
+      border: 0
+      border-radius: 20px

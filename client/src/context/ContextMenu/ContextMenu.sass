@@ -1,0 +1,33 @@
+.context-menu
+   position: fixed
+   border-radius: 10px
+   width: auto
+   border: 1px solid #000
+   background: #fff
+   gap: 10px
+
+   &__item
+      color: #000
+      font-weight: 600
+      font-size: 14px
+      height: 30px
+      display: flex
+      align-items: center
+      padding: 0 10px
+      cursor: pointer
+      padding-top: 10px
+      border: 0
+      outline: 0
+      width: 100%
+      &[disabled]
+         background: #c9c9c9
+         cursor: default
+      &:first-child
+         border-top-left-radius: 10px
+         border-top-right-radius: 10px
+      &:last-child
+         padding-bottom: 10px
+         border-bottom-left-radius: 10px
+         border-bottom-right-radius: 10px
+      &:hover
+         background: #c9c9c9
